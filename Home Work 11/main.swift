@@ -226,6 +226,7 @@ import Foundation
 
 //Home Work 11_11 հայտարարել մասիվ հետևյալ արժեքներով` “Hello” “GITC” “iOS” մասիվի filter() ֆունկցիայի միջոցով ստանալ նոր մասիվ որը կպարունակի հայտարարած մասիվի այն էլեմենտները որոնց մեջ կա i տառը։ Oգտագործել ֆունկցիա որպես filter() -ի արգումենտ
 
+//example 1
 //func iFunc(a: String) -> Bool {
 //    return a.contains("i")
 //}
@@ -234,9 +235,22 @@ import Foundation
 //let newArr = arr.filter(iFunc)
 //print(newArr)
 
+//example 2
+//func iFunc(a: String) -> Bool {
+//    if a.contains("i") {
+//        return true
+//    } else {
+//        return false
+//    }
+//}
+//
+//let arr = ["hello", "gitc", "ios"]
+//let newArr = arr.filter(iFunc)
+//print(newArr)
 
 //Home Work 11_12 հայտարարել մասիվ հետևյալ արժեքներով` “Hello” “GITC” “iOS” մասիվի filter() ֆունկցիայի միջոցով ստանալ նոր մասիվ որը կպարունակի հայտարարած մասիվի այն էլեմենտները որոնց մեջ կա i տառը։ օգտագործել closure որպես filter() -ի արգումենտ
 
+//example 1
 //let arr = ["hello", "gitc", "ios"]
 //let newArr = arr.filter({ (a: String) -> Bool in
 //    return a.contains("i")
@@ -244,7 +258,17 @@ import Foundation
 //print(newArr)
 
 
+//example 2
 
+//let arr = ["hello", "gitc", "ios"]
+//let newArr = arr.filter({ (a: String) -> Bool in
+//if a.contains("i") {
+//        return true
+//    } else {
+//        return false
+//    }
+//})
+//print(newArr)
 
 
 
