@@ -75,26 +75,13 @@ import Foundation
 
 
     //amenakarj tarberak@ u chisht
+//
 //func sayHelloOther(funcArgument: () -> Void ) {
 //    funcArgument()
 //}
 //sayHelloOther(funcArgument: {() -> Void in
 // print("Hello")
 //})
-
-
-//example 2 harcnel
-//func printHello(a: String) -> String {
-//    return a
-//}
-//func printHelloInClous(a: (String) ->  String ) -> String {
-//    return(printHello(a: "Hello"))
-//}
-//
-//let allFunc = printHelloInClous{ i in (printHello(a:"")) }
-//print(allFunc)
-
-
 
 
 //Home Work 11_5
@@ -124,7 +111,7 @@ import Foundation
 //let array = [ 1, 4, -3, -45, 45 ]
 //let minusNumbers = array.filter( { $0 < 0} )
 //print(minusNumbers)
-//
+
 
 ////// // example 2
 
@@ -134,6 +121,12 @@ import Foundation
 //}
 //print(minusNumbers)
 
+
+// example 3
+let array = [ 1, 4, -3, -45, 45 ]
+let minusTver = array.filter({ arr in arr < 0})
+
+print(minusTver)
 
 
 // Home Work 11_7 հայտարարել մասիվ հետևյալ արժեքներով` 1, 4, -3, -,45, 45 մասիվի filter() ֆունկցիայի միջոցով ստանալ նոր մասիվ որը կպարունակի հայտարարած մասիվի ցույգ էլեմենտները օգտագործել ֆունկցիա որպես filter() -ի արգումենտ
