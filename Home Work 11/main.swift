@@ -123,10 +123,10 @@ import Foundation
 
 
 // example 3
-let array = [ 1, 4, -3, -45, 45 ]
-let minusTver = array.filter({ arr in arr < 0})
-
-print(minusTver)
+//let array = [ 1, 4, -3, -45, 45 ]
+//let minusTver = array.filter({ arr in arr < 0})
+//
+//print(minusTver)
 
 
 // Home Work 11_7 հայտարարել մասիվ հետևյալ արժեքներով` 1, 4, -3, -,45, 45 մասիվի filter() ֆունկցիայի միջոցով ստանալ նոր մասիվ որը կպարունակի հայտարարած մասիվի ցույգ էլեմենտները օգտագործել ֆունկցիա որպես filter() -ի արգումենտ
